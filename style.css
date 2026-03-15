@@ -86,3 +86,34 @@
       Arial, sans-serif;
   }
 }
+
+
+/* responsive code here */
+@media (max-width: 768px) {
+  #mainDiv {
+    width: 90%;
+    padding: 30px 20px;
+  }
+  #headlineDiv h1 {
+    font-size: 30px;
+  }
+  #inputDate, #submitBtn {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  #headlineDiv h1 {
+    font-size: 24px;
+  }
+  #headlineDiv p {
+    font-size: 14px;
+  }
+  #inputDate, #submitBtn {
+    font-size: 18px;
+    padding: 8px;
+  }
+  #resultDiv {
+    padding: 15px 10px;
+  }
+}
